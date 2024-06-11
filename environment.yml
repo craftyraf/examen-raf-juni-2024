@@ -1,8 +1,5 @@
 name: environment
 channels:
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
-  - https://repo.anaconda.com/pkgs/msys2
   - defaults
 dependencies:
   - anyio=4.2.0=py312haa95532_0
@@ -21,7 +18,7 @@ dependencies:
   - brotli-python=1.0.9=py312hd77b12b_8
   - bzip2=1.0.8=h2bbff1b_6
   - ca-certificates=2024.3.11=haa95532_0
-  - certifi=2024.2.2=py312haa95532_0
+  - certifi=2024.6.2=py312haa95532_0
   - cffi=1.16.0=py312h2bbff1b_1
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - colorama=0.4.6=py312haa95532_0
