@@ -5,13 +5,13 @@ def calculate_wrong_outliers(data):
     """
     Calculate outliers (=wrong data) based on the given data.
     """
-    # Calculate mean births per day
-    births_per_day_mean = data.mean()
-    print(f"Gemiddeld aantal geboortes per dag: {births_per_day_mean:.1f}")
+    # Calculate mean
+    data_mean = data.mean()
+    print(f"Gemiddeld aantal geboortes per dag: {data_mean:.1f}")
 
     # Calculate the thresholds for outliers (50% deviation)
-    lower_outlier_threshold = births_per_day_mean - 0.5 * births_per_day_mean
-    upper_outlier_threshold = births_per_day_mean + 0.5 * births_per_day_mean
+    lower_outlier_threshold = data_mean - 0.5 * data_mean
+    upper_outlier_threshold = data_mean + 0.5 * data_mean
     print(f"Lower outlier threshold: {lower_outlier_threshold:.1f} ; "
           f"Upper outlier threshold: {upper_outlier_threshold:.1f}")
 
